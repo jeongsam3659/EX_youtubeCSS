@@ -1,8 +1,8 @@
 # YoutubeCSS Update.
 
-## youtube에서 본 기술 저장하는 Git.
+youtube에서 본 기술 저장하는 Git.
 
-출처
+## 출처
 
 1.  https://www.youtube.com/c/OnlineTutorials4Designers
 
