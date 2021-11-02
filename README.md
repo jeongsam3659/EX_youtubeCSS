@@ -25,3 +25,8 @@ youtube에서 본 기술 저장하는 Git.
 8. DigitalClock
 
 9. iPhoneBox Moveup
+
+## 업데이트
+
+11/01 해당 파일 git 추가
+11/02 Link페이지 추가
