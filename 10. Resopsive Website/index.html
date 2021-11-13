@@ -9,13 +9,16 @@
   <body>
     <header>
       <a href="#" class="logo">Food<span>.</span></a>
+      <div class="menuToggle" onclick="toggleMenu();"></div>
       <ul class="navigation">
-        <li><a href="#banner">Home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#expert">Expert</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">about</a></li>
+        <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+        <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+        <li>
+          <a href="#testimonials" onclick="toggleMenu();">Testimonials</a>
+        </li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
       </ul>
     </header>
     <section class="banner" id="banner">
@@ -33,7 +36,7 @@
           <p>내용2</p>
         </div>
         <div class="co150">
-          <div class="imgBx"><img src="#" alt="" />이미지2</div>
+          <div class="imgBx"><img src="images/img1.jpg" alt="" />이미지2</div>
         </div>
       </div>
     </section>
@@ -46,42 +49,54 @@
 
       <div class="content">
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />메뉴이미지1</div>
+          <div class="imgBx">
+            <img src="images/menu1.jpg" alt="" />메뉴이미지1
+          </div>
           <div class="text">
             <h3>Special food1</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />메뉴이미지2</div>
+          <div class="imgBx">
+            <img src="images/menu2.jpg" alt="" />메뉴이미지2
+          </div>
           <div class="text">
             <h3>Special food2</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />메뉴이미지3</div>
+          <div class="imgBx">
+            <img src="images/menu3.jpg" alt="" />메뉴이미지3
+          </div>
           <div class="text">
             <h3>Special food3</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />메뉴이미지4</div>
+          <div class="imgBx">
+            <img src="images/menu4.jpg" alt="" />메뉴이미지4
+          </div>
           <div class="text">
             <h3>Special food4</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />메뉴이미지5</div>
+          <div class="imgBx">
+            <img src="images/menu5.jpg" alt="" />메뉴이미지5
+          </div>
           <div class="text">
             <h3>Special food5</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />메뉴이미지6</div>
+          <div class="imgBx">
+            <img src="images/menu6.jpg" alt="" />메뉴이미지6
+          </div>
           <div class="text">
             <h3>Special food6</h3>
           </div>
@@ -100,35 +115,45 @@
       </div>
       <div class="content">
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />expert 이미지1</div>
+          <div class="imgBx">
+            <img src="images/expert1.jpg" alt="" />expert 이미지1
+          </div>
           <div class="text">
             <h3>someone Famous</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />expert 이미지1</div>
+          <div class="imgBx">
+            <img src="images/expert2.jpg" alt="" />expert 이미지1
+          </div>
           <div class="text">
             <h3>someone Famous</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />expert 이미지2</div>
+          <div class="imgBx">
+            <img src="images/expert3.jpg" alt="" />expert 이미지2
+          </div>
           <div class="text">
             <h3>someone Famous</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />expert 이미지3</div>
+          <div class="imgBx">
+            <img src="images/expert4.jpg" alt="" />expert 이미지3
+          </div>
           <div class="text">
             <h3>someone Famous</h3>
           </div>
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />expert 이미지4</div>
+          <div class="imgBx">
+            <img src="images/expert4.jpg" alt="" />expert 이미지4
+          </div>
           <div class="text">
             <h3>someone Famous</h3>
           </div>
@@ -143,7 +168,7 @@
       </div>
       <div class="content">
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />1</div>
+          <div class="imgBx"><img src="images/testi1.jpg" alt="" />1</div>
           <div class="text">
             <p>내용5</p>
             <h3>Someone Famous</h3>
@@ -151,7 +176,7 @@
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />2</div>
+          <div class="imgBx"><img src="images/testi2.jpg" alt="" />2</div>
           <div class="text">
             <p>내용5</p>
             <h3>Someone Famous</h3>
@@ -159,7 +184,7 @@
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />3</div>
+          <div class="imgBx"><img src="images/testi3.jpg" alt="" />3</div>
           <div class="text">
             <p>내용5</p>
             <h3>Someone Famous</h3>
@@ -167,7 +192,7 @@
         </div>
 
         <div class="box">
-          <div class="imgBx"><img src="#" alt="" />4</div>
+          <div class="imgBx"><img src="images/testi1.jpg" alt="" />4</div>
           <div class="text">
             <p>내용5</p>
             <h3>Someone Famous</h3>
@@ -202,8 +227,6 @@
       <p>Copyright 2021 <a href="#">Online Tutorials.</a> All Right Reserved</p>
     </div>
 
-    github등록
-
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         const header = document.querySelector("header");
@@ -213,6 +236,14 @@
         scroll 기능. 
         scrollY크기가 0보다 크면 sticy 변수 추가.
       */
+
+      function toggleMenu() {
+        const menuToggle = document.querySelector(".menuToggle");
+        const navigation = document.querySelector(".navigation");
+
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
     </script>
   </body>
 </html>
