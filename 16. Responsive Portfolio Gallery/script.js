@@ -8,7 +8,6 @@ for (let i = 0; i < list.length; i++) {
         }
         this.classList.add("active");
 
-        //
         let dataFilter = this.getAttribute("data-filter");
         for (let k = 0; k < itemBox.length; k++) {
             // itemBox[]전체에서 active를 해제후 hide를 부여.
