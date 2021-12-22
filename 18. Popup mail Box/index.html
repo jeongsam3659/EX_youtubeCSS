@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Popup BOX</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <a class="btn" onclick="popToggle();">Subscribe Us</a>
+        <div id="popup">
+            <div class="content">
+                <img src="img/몰루콘.jpg" />
+                <h2>게임 테스터 가입하기</h2>
+                <p>
+                    게임개발부 동아리실에 놀러오세요!<br />
+                    이벤트 기간 동안 게임개발부 동아리실에 놀러오세요.<br />
+                    E-mail을 등록해주세요.
+                </p>
+                <div class="inputBox">
+                    <input type="email" placeholder="email 등록" />
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Sign up" class="btn" id="submitBtn" />
+                </div>
+            </div>
+            <a class="close" onclick="popToggle();"><ion-icon size="large" name="close"></ion-icon></a>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
