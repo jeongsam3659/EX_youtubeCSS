@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Use Calendar</title>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" />
+    </head>
+    <body>
+        <div class="calendar"></div>
+
+        <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
+        <script>
+            new Calendar(document.querySelector(".calendar"));
+        </script>
+    </body>
+</html>
+
+<!-- js-Calendar 깃허브 라이브러리 활용. -->
+<!-- 
+    출처: https://www.youtube.com/watch?v=hdnt-jdDlao&t=38s
+
+        # 1
+        https://github.com/year-calendar/js-year-calendar 
+        페이지에 들어가서 - installation에서
+
+        <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>       
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" />
+            
+        # 2 
+        js 
+        <script>
+            new Calendar(document.querySelector(".calendar"));
+        </script>
+
+        # 3
+        body 태그에
+         <div class="calendar"></div> 
+        추가하면 calendar가 나타난다.
+-->
