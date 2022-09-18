@@ -9,7 +9,7 @@ youtube에서 본 기술 저장하는 Git.
 ## 목록
 
 1. shingingTextAni
-  * 출처: [빛나는 글자]<https://www.youtube.com/watch?v=C8paSmVFsVE&t=0s>
+  * 출처: [빛나는 글자](https://www.youtube.com/watch?v=C8paSmVFsVE&t=0s)
 
 2. createCSSbutton Hover
 
