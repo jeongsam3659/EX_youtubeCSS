@@ -5,15 +5,25 @@ youtube에서 본 기술 저장하는 Git.
 ## 출처
 
 1.  https://www.youtube.com/c/OnlineTutorials4Designers
+  * 출처:
 
 ## 목록
 
-1. shingingTextAni
-  * 출처: [빛나는 글자](https://www.youtube.com/watch?v=C8paSmVFsVE&t=0s)
+1. **shingingTextAni**
 
-2. createCSSbutton Hover
+   * [빛나는 글자 애니메이션](https://www.youtube.com/watch?v=C8paSmVFsVE&t=0s)
 
-3. LoadingAni Effect
+* * *
+
+2. **createCSSbutton Hover**
+
+   * [터치반응 테투리](https://www.youtube.com/watch?v=lCxfo8tvHqk&t=4s)
+
+3. **LoadingAni Effect**
+
+   * [회전 하는 로딩페이지](https://www.youtube.com/watch?v=ttWXapXj4cg&t=0s)
+   
+* * *
 
 4. createPagescroll
 
